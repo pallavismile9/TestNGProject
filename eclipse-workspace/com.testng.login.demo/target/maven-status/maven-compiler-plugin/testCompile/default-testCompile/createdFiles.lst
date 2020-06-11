@@ -1,0 +1,9 @@
+com\testng\login\demo\DataProviderDemo.class
+com\testng\login\demo\LoginTest.class
+com\testng\login\demo\NewContact.class
+com\testng\login\demo\DataProviderTest.class
+com\testng\login\demo\PriorityTest.class
+com\testng\login\demo\DataProviderAspose.class
+com\testng\login\demo\datademo.class
+com\testng\login\demo\LaunchApp.class
+com\testng\login\demo\NewContactTest.class

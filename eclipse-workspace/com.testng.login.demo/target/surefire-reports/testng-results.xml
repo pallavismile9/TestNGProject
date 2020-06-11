@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional_Suite" duration-ms="30187" started-at="2020-06-10T23:56:58Z" finished-at="2020-06-10T23:57:28Z">
+    <groups>
+      <group name="Regression Test">
+        <method signature="NewContactTest.clickSave()[pri:4, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="clickSave" class="com.testng.login.demo.NewContactTest"/>
+      </group> <!-- Regression Test -->
+      <group name="Functional Test">
+        <method signature="NewContactTest.findContacts()[pri:1, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="findContacts" class="com.testng.login.demo.NewContactTest"/>
+        <method signature="NewContactTest.clickNewContactButton()[pri:2, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="clickNewContactButton" class="com.testng.login.demo.NewContactTest"/>
+        <method signature="NewContactTest.enterDetails()[pri:3, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="enterDetails" class="com.testng.login.demo.NewContactTest"/>
+      </group> <!-- Functional Test -->
+      <group name="loginPage">
+        <method signature="NewContactTest.loginBrowser()[pri:1, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="loginBrowser" class="com.testng.login.demo.NewContactTest"/>
+      </group> <!-- loginPage -->
+    </groups>
+    <test name="i_Test" duration-ms="30187" started-at="2020-06-10T23:56:58Z" finished-at="2020-06-10T23:57:28Z">
+      <class name="com.testng.login.demo.NewContactTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="launchBrowser" is-config="true" duration-ms="8301" started-at="2020-06-10T23:56:49Z" finished-at="2020-06-10T23:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginBrowser()[pri:1, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="loginBrowser" duration-ms="10410" started-at="2020-06-10T23:56:58Z" finished-at="2020-06-10T23:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBrowser -->
+        <test-method status="PASS" signature="findContacts()[pri:1, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="findContacts" duration-ms="11330" started-at="2020-06-10T23:57:08Z" depends-on-methods="com.testng.login.demo.NewContactTest.loginBrowser" finished-at="2020-06-10T23:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findContacts -->
+        <test-method status="PASS" signature="clickNewContactButton()[pri:2, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="clickNewContactButton" duration-ms="5657" started-at="2020-06-10T23:57:19Z" depends-on-methods="com.testng.login.demo.NewContactTest.findContacts" finished-at="2020-06-10T23:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNewContactButton -->
+        <test-method status="PASS" signature="enterDetails()[pri:3, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="enterDetails" duration-ms="198" started-at="2020-06-10T23:57:25Z" depends-on-methods="com.testng.login.demo.NewContactTest.clickNewContactButton" finished-at="2020-06-10T23:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method status="PASS" signature="clickSave()[pri:4, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="clickSave" duration-ms="2571" started-at="2020-06-10T23:57:25Z" depends-on-methods="com.testng.login.demo.NewContactTest.enterDetails" finished-at="2020-06-10T23:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSave -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.login.demo.NewContactTest@75d366c2]" name="tearDown" is-config="true" duration-ms="717" started-at="2020-06-10T23:57:28Z" finished-at="2020-06-10T23:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.login.demo.NewContactTest -->
+    </test> <!-- i_Test -->
+  </suite> <!-- Functional_Suite -->
+</testng-results>

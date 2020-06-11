@@ -18,11 +18,11 @@ public class DataProviderAspose {
 	
 	
 	
-	@DataProvider(name="asposeEmployeeInfo")
+	/*@DataProvider(name="asposeEmployeeInfo")
 	Object[][] trainerInfoFromExcel_aspose()throws Exception{
 		String sFile = System.getProperty("user.dir")+"/Dataprovidertestng.xls";
-		 return readDataFromExcelSheet_aspose(sFile);
-	}
+		 //return readDataFromExcelSheet_aspose(sFile);
+	}*/
 	//open source free tools can be used anywhere. 
 	//private Object[][] readDataFromExcelSheet_aspose(String sFile) throws Exception {
 /*		//Creating a file stream containing the Excel file to be opened
@@ -46,7 +46,7 @@ public class DataProviderAspose {
 				return dataTable;
 				*/
 		
-		private Object[][] readDataFromExcelSheet_aspose(String sFile) throws Exception {
+		/*private Object[][] readDataFromExcelSheet_aspose(String sFile) throws Exception {
 			//Creating a file stream containing the Excel file to be opened
 					FileInputStream fstream = new FileInputStream(sFile);
 					
@@ -58,17 +58,17 @@ public class DataProviderAspose {
 					
 					//Exporting the contents of 7 rows and 2 columns starting from 1st cell to Array.
 					Object[][] dataTable = worksheet.getCells().exportArray(0,0,7,3);
-					/*for (int i = 0 ; i < dataTable.length ; i++)
+					for (int i = 0 ; i < dataTable.length ; i++)
 					{
 						System.out.println("["+ i +"]: "+ Arrays.toString(dataTable[i]));
-					}*/
+					}
 					//Closing the file stream to free all resources
 					fstream.close();
 			return dataTable;
 		
-		
+		*/
 				
 				
 				
 	}
-}
+//}
